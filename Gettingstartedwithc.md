@@ -11,3 +11,4 @@ gcc -v and g++ -v, gcc: GNU Cross Compiler, g++ GNU C++ Compiler. GNU: GNU's not
 3. This will create a executable file called a.out if there is no error in program. Actually <filename>.c is a non-executable file. a.out is the executable file in binary form.
 4. To run a.out file type `./a.out`. This will run the file and display whatever the program has to.
 5. What if I type `./<filename>.c` , well that's an error bcoz it is a non-executable file. 
+6. If you ever get a error, it will be in this format: main.c:4:1: warning: return type defaults to ‘int’.
