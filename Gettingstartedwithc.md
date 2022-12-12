@@ -16,4 +16,4 @@ gcc -v and g++ -v, gcc: GNU Cross Compiler, g++ GNU C++ Compiler. GNU: GNU's not
   
 # DATE: 11/12/22
 1. When you type `ls` in the terminal, texts appear in different colours. Blue indicates that it is a directory, white indicates that it is a file. Apart from this, how do you identify whether it is a file or a directory if you are given a black and white display screen? Type `ls -la` in your terminal. Now a detailed list will appear with each column representing something. </br>
-![gh](C:\Users\arunk\OneDrive\Pictures\Screenshots\Screenshot (248).png)
+![](C:\Users\arunk\OneDrive\Pictures\Screenshots\Screenshot (248).png)
