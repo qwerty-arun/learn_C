@@ -28,33 +28,33 @@ Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for ex
 # DATE: 13/12/22 (in college)
 1. Basic structure of a program:- 
 ```
-   /* Documentation Section */</br>
-   /* Link Section */</br>
-   /* Global Declaration */</br>
-   Main Function()</br>
-   {</br>
-   Declaration statements; </br>
-   Executable statements;</br>
-  }</br>
-  User-defined functions()</br>
-  {</br>
- ......</br>
- }</br>
+   /* Documentation Section */
+   /* Link Section */
+   /* Global Declaration */
+   Main Function()
+   {
+   Declaration statements; 
+   Executable statements;
+   }
+  User-defined functions()
+   {
+ ......
+   }      
  ```
 2. Header files contain many functions which if not included, you will not be able to use the function. So, before using a function, you have to include the respective header file. And, for that we use the syntax: `# include` . '#' is called the pre-processor. 
 </br>
 3. In C, scanf is the reading statement and printf is the writing statement. Accepting values from the keyboard is called reading the values. 
 </br>
-4. My second program "Adding 2 no.s" 
-```
-   # include <stdio.h>
-   main()
-   {
-   int x,y,sum; 
-   printf("Enter 2 no.s");
-   scanf("%d%d",&x&y);
-   sum=x+y;
-   printf("Sum=%d", sum);
-   }
+4. My second program "Adding 2 no.s" .</br>
+ 
+   ```# include <stdio.h> 
+   main()   
+   {   
+   int x,y,sum;    
+   printf("Enter 2 no.s");   
+   scanf("%d%d",&x&y);   
+   sum=x+y;   
+   printf("Sum=%d", sum);   
+   }   
    ```
-   
+   5. What is this '%d' that i have written here? It is basically a format specifier/ conversion code to accept integer values. Similarly for decimal values, '%f' is used and for character, '%c' is used. '&' is an address operator, it allots memory to variables. 
