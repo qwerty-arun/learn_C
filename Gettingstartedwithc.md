@@ -16,9 +16,11 @@ gcc -v and g++ -v, gcc: GNU Cross Compiler, g++ GNU C++ Compiler. GNU: GNU's not
   
 # DATE: 11/12/22
 1. When you type `ls` in the terminal, texts appear in different colours. Blue indicates that it is a directory, white indicates that it is a file. Apart from this, how do you identify whether it is a file or a directory if you are given a black and white display screen? Type `ls -la` in your terminal. Now a detailed list will appear with each column representing something. </br>
-![screenshot_45](https://user-images.githubusercontent.com/114285027/207869899-807c6ae5-ac40-461c-9470-d4a38e3735f6.png)
+![screenshot_45](https://user-images.githubusercontent.com/114285027/207869899-807c6ae5-ac40-461c-9470-d4a38e3735f6.png) </br>
 Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for execute and '-' for file.
+</br>
 2. Now suppose, I get an error in my code in a particular line, how do I open my file to go to that exact line? Type `vim <filename> +<line number>`. 
+</br>
 3. Suppose, I want some default changes whenever I open a file like, adding line no.s, changing color of text etc. Type `vim ~./vimrc` and write whatever commands you like. This will write the changes and whenever you open any file, these changes will already take place.
 </br>
 
