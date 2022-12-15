@@ -47,7 +47,7 @@ Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for ex
 </br>
 4. My second program "Adding 2 no.s" .</br>
  
-   ```
+   ```C
    # include <stdio.h> 
    int main()   
    {   
@@ -60,7 +60,7 @@ Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for ex
    ```
    5. What is this '%d' that i have written here? It is basically a format specifier/ conversion code to accept integer values. Similarly for decimal values, '%f' is used and for character, '%c' is used. '&' is an address operator, it allots memory to variables. 
    6. Program to compute simple interest:-
-   ```
+   ```C
    # include <stdio.h> 
    int main()
    {
