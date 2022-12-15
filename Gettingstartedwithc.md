@@ -8,7 +8,7 @@ gcc -v and g++ -v, gcc: GNU Cross Compiler, g++ GNU C++ Compiler. GNU: GNU's not
 
 1. While writing a program in C, you must write it in a file with extension ".c". 
 2. To compile the file in linux, type `gcc <filename>.c`
-3. This will create a executable file called a.out if there is no error in program. Actually <filename>.c is a non-executable file. a.out is the executable file in binary form which the computer can understand easily.
+3. This will create a executable file called a.out if there is no error in program. Actually <filename>.c is a non-executable file. a.out is the executable file in binary form which the computer can understand easily. In windows, it is actually a .exe file which is executable.
 4. To run a.out file type `./a.out`. This will run the file and display whatever the program has to.
 5. What if I type `./<filename>.c` ? well that's an error bcoz it is a non-executable file. 
 6. If you ever get a error, it will be in this format: main.c:4:1: warning: return type defaults to ‘int’.
@@ -27,6 +27,7 @@ Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for ex
 
 # DATE: 13/12/22 (in college)
 1. Basic structure of a program:- 
+```
    /* Documentation Section */</br>
    /* Link Section */</br>
    /* Global Declaration */</br>
@@ -39,7 +40,21 @@ Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for ex
   {</br>
  ......</br>
  }</br>
- 
- 2. Header files contain many functions which if not included, you will not be able to use the function. So, before using a function, you have to include the respective header file. And, for that we use the syntax: `# include` . '#' is called the pre-processor. 
- 3. In C, scanf is the reading statement and printf is the writing statement. Accepting values from the keyboard is called reading the values. 
- 4. 
+ ```
+2. Header files contain many functions which if not included, you will not be able to use the function. So, before using a function, you have to include the respective header file. And, for that we use the syntax: `# include` . '#' is called the pre-processor. 
+</br>
+3. In C, scanf is the reading statement and printf is the writing statement. Accepting values from the keyboard is called reading the values. 
+</br>
+4. My second program "Adding 2 no.s" 
+```
+   # include <stdio.h>
+   main()
+   {
+   int x,y,sum; 
+   printf("Enter 2 no.s");
+   scanf("%d%d",&x&y);
+   sum=x+y;
+   printf("Sum=%d", sum);
+   }
+   ```
+   
