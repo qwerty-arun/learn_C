@@ -47,12 +47,13 @@ Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for ex
 </br>
 4. My second program "Adding 2 no.s" .</br>
  
-   ```# include <stdio.h> 
-   main()   
+   ```
+   # include <stdio.h> 
+   int main()   
    {   
    int x,y,sum;    
    printf("Enter 2 no.s");   
-   scanf("%d%d",&x&y);   
+   scanf("%d%d",&x,&y);   
    sum=x+y;   
    printf("Sum=%d", sum);   
    }   
