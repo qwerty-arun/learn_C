@@ -58,3 +58,16 @@ Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for ex
    }   
    ```
    5. What is this '%d' that i have written here? It is basically a format specifier/ conversion code to accept integer values. Similarly for decimal values, '%f' is used and for character, '%c' is used. '&' is an address operator, it allots memory to variables. 
+   6. Program to compute simple interest:-
+   ```
+   # include <stdio.h> 
+   int main()
+   {
+   float p,r,t,si;
+   printf("Enter principle amount, time and rate of interest\n");
+   scanf("%f%f%f",&p,&r,&t);
+   si=p*r*t*0.01;
+   printf("Simple interest=%f",si);
+   }
+   ``` 
+   
