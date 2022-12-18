@@ -25,7 +25,7 @@ Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for ex
 </br>
 
 
-# DATE: 13/12/22 (in college)
+# DATE: 13/12/22
 1. Basic structure of a program:- 
 ```C
    /* Documentation Section */
