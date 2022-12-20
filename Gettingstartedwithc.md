@@ -90,8 +90,7 @@ Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for ex
    
    4. SYMBOLIC CONSTANTS : </br>
             
-          # define line defines a symbolic name or symbolic constant to be a particular string of characters.  </br> `# define Name replacement text `. </br>In every occurance of Name, it will be replaced by replacement text. </br>Replacement text can be any sequence of characters, not just numbers. </br>`# define passwd 1234`. There is no semicolon at the end of # define line. </br>
-     
+        #define line defines a symbolic name or symbolic constant to be a particular string of characters.  `# define Name replacement text `</br> . </br>In every occurance of Name, it will be replaced by replacement text. </br>Replacement text can be any sequence of characters, not just numbers. </br>`# define passwd 1234`. There is no semicolon at the end of # define line. </br>
      
   5. 
  
