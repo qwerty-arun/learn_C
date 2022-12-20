@@ -71,4 +71,7 @@ Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for ex
    printf("Simple interest=%f",si);
    }
    ``` 
+   </br>
    
+   # DATE : 20/12/22
+   1. c = 5*(f-32)/9; Here we can't multiply by 5/9 because in C, integer division truncates(fractional part is discarde). 5/9 would be truncated to 0. 
