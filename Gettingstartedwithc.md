@@ -74,4 +74,24 @@ Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for ex
    </br>
    
    # DATE : 20/12/22
-   1. c = 5*(f-32)/9; Here we can't multiply by 5/9 because in C, integer division truncates(fractional part is discarde). 5/9 would be truncated to 0. 
+   1. c = 5*(f-32)/9; Here we can't multiply by 5/9 because in C, integer division truncates(fractional part is discarde). 5/9 would be truncated to 0. A decimal point indicates it is floating point. Therefore, 5.0/9.0 won't be truncated to 0. Here, if 'f' is float, then 32 will be automatically converted to 32.0 . </br>
+   2. printf("%3d%6d\n",a,b); This statement prints first no. of each line in a field three digits wide and the second in a field six digits wide, like: 
+        0       -17  </br>
+       20        -6 </br>
+       40         4 </br>
+      100        37  </br>
+  Now, suppose 6.0 was 6.1, this would print even 1st digit after the decimal point with at least 6 characters wide. </br>
+  
+  3. %d : print as decimal integer </br>
+     %6d : print as decimal integer, at least 6 characters wide.</br>
+     %f : print as floating point.</br>
+     .3f : print as floating point, 3 characters after decimal point, but width is not constrained. </br>
+    printf also recognises %o for octal, %x for hexadecimal, %c for character, %s for character string and %% for % itself.
+   
+   4. SYMBOLIC CONSTANTS : </br>
+            
+          # define line defines a symbolic name or symbolic constant to be a particular string of characters.  </br> `# define Name replacement text `. </br>In every occurance of Name, it will be replaced by replacement text. </br>Replacement text can be any sequence of characters, not just numbers. </br>`# define passwd 1234`. There is no semicolon at the end of # define line. </br>
+     
+     
+  5. 
+ 
