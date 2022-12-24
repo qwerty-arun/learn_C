@@ -24,3 +24,4 @@ delay(1000); // tells us for how much time the LED must be OFF
 - Setup code will be executed only once whereas the loop code(main code) will run repeatedly.
 - Making one delay value as zero, say for ON state, the LED will be OFF the whole time. If we do the same for OFF state, the LED will be ON the whole time.
 - If we want different patterns to be displayed in LED, then we can use 'for' loop . For example:- Each time a for loop is executed, i can decrease/ increase the delay value by a factor. This will create a non-monotonous pattern.
+- This <ins>Arduino software</ins> runs on C programming language. 
