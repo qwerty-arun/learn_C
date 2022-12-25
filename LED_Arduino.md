@@ -57,5 +57,39 @@ pinMode(15,OUTPUT);
 void loop()
 {
 digitalWrite(15,HIGH);
-digitalWrite(
+digitalWrite(2,LOW);
+delay(2000);
+digitalWrite(15,LOW);
+digitalWrite(2,HIGH);
+delay(2000);
+}
+```
+</br>
+`This code will make the LED and on-board LED will switch ON/OFF simultaneously. They are synchronous.`
+</br>
+
+# Playing with Toggle Switch
+***Code:-***
+```C
+int buttonstate=0;
+void setup()
+{
+pinMode(15,OUTPUT);
+pinMode(16,INPUT);
+}
+void loop()
+{
+buttonstate=digitalRead(16);
+if(buttonstate==1)
+{
+digitalWrite(15,HIGH);
+}
+else
+{
+digitalWrie(15,LOW);
+}
+}
+```
+</br>
+
 
