@@ -91,6 +91,8 @@ digitalWrie(15,LOW);
 }
 ```
 </br>
-`Now, the LED and on-board LED will be working alternatively according to switch state.`
+
+- Now, the LED and on-board LED will be working alternatively according to switch state.
 </br>
+
 `To make both LED and on-board LED synchronous, switch 'LOW' and 'HIGH' posiions.` 
