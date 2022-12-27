@@ -92,5 +92,42 @@ Now 'd' actually stands for "directory", 'r' for read, 'w' for write, 'x' for ex
             
         #define line defines a symbolic name or symbolic constant to be a particular string of characters.  `# define Name replacement text `</br> . </br>In every occurance of Name, it will be replaced by replacement text. </br>Replacement text can be any sequence of characters, not just numbers. </br>`# define passwd 1234`. There is no semicolon at the end of # define line. </br>
      
-  5. 
- 
+  5. getchar() and putchar():- getchar() is used to read a character and putchar() is used to print a character.
+  </br>
+  
+  # 27/12/22
+  1. EOF = End of File and it has a value = -1 . If I replace EOF with -1, everywhere in a given prgm, the prgm will be totally valid. 
+  2. A simple <ins>file copying</ins> program:- 
+  ```C
+# include <stdio.h>
+ int main()
+ {
+ int c;
+ while((c=getchar())!=EOF)
+ putchar(c);
+ }
+ ```
+ 3. A simple <ins>character counting</ins> program:-
+```C
+# include <stdio.h>
+int main()
+{
+int c,nc;
+while((getchar())!=EOF)
+++nc;
+printf("No. of characters: %d",nc);
+}
+```
+4. A simple <ins>line counting</ins> program:- 
+```C
+# include <stdio.h>
+int main()
+{
+int c,nl;
+while((getchar())!=EOF)
+if(c=='\n')
+++nl;
+printf("No. of new lines: %d",nl);
+}
+```
+5. 
