@@ -118,6 +118,18 @@ while((getchar())!=EOF)
 printf("No. of characters: %d",nc);
 }
 ```
+Using for loop:- 
+```C
+# include <stdio.h>
+ 10 int main()
+ {
+ int nc;
+  for(nc=0;getchar()!=EOF;++nc)
+  ; //this semicolon is there for a reason becoz in C, for loop should have a body and this semicolon is satisfying that
+  printf("%d",nc);
+ } */
+ ```
+ 
 4. A simple <ins>line counting</ins> program:- 
 ```C
 # include <stdio.h>
@@ -130,4 +142,4 @@ if(c=='\n')
 printf("No. of new lines: %d",nl);
 }
 ```
-5. 
+
