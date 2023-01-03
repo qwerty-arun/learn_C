@@ -147,7 +147,7 @@ printf("No. of new lines: %d",nl);
 # 3/1/23
 ## Data-types in C:-
 ```mermaid
-flowchart TD
+graph TD
 A[DATA TYPES] --> B[int];
 A --> C[double];
 A --> D[char];
