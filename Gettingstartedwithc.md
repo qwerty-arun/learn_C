@@ -150,7 +150,7 @@ printf("No. of new lines: %d",nl);
 flowchart TD
 A[DATA TYPES] --> B[int];
 A --> C{double};
-A --> D[char];
+A --> D<char>;
 A --> E[float];
 A --> F[float];
 A --> G[short];
