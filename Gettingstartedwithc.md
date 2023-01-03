@@ -148,7 +148,7 @@ printf("No. of new lines: %d",nl);
 ## Data-types in C and its size and range:-
 ```mermaid
 flowchart TD
-A[DATA TYPES] --> B[int];
+A{DATA TYPES} --> B[int];
 A --> C[double];
 A --> D[char];
 A --> E[float];
