@@ -142,4 +142,17 @@ if(c=='\n')
 printf("No. of new lines: %d",nl);
 }
 ```
+</br>
 
+# 3/1/23
+## Data-types in C and its size and range:-
+```mermaid
+flowchart TD
+A[DATA TYPES] --> B[int];
+A --> C[double];
+A --> D[char];
+A --> E[float];
+A --> F[float];
+A --> G[short];
+A --> H[bool];
+```
