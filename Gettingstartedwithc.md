@@ -163,4 +163,4 @@ int count=printf("Enter a no:\n"); What value do you think the variable count st
 We see `return 0` at the end of every main function. What is its significance? Why only 0 and not any other number? `return 0` at the end of the main file signifies that everything so far in the main function went fine and compiler assumes that the user knows what he had written in the code and therefore clears some of the memory. Suppose I return 1 or 2 or some other number, the compiler assumes that the user needs to manipulate something and knows what he is doing therefore, doesn't clear memory.
 3) To indent a program in liux, type `indent -kr <filename>` in the terminal. You can create your own vim plugin to autoindent your prgm. 
 4) Scope of variables:- A variable declared inside a function has limited scope, only that function can access it and it cannot be accessed outside the function. Same goes with variables declared inside a loop. 
-5) echo $?
+5) echo $? and operating system error codes.
