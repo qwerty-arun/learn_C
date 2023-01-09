@@ -163,3 +163,52 @@ int count=printf("Enter a no:\n"); What value do you think the variable count st
 3) To indent a program in liux, type `indent -kr <filename>` in the terminal. You can create your own vim plugin to autoindent your prgm. </br>
 4) Scope of variables:- A variable declared inside a function has limited scope, only that function can access it and it cannot be accessed outside the function. Same goes with variables declared inside a loop. </br>
 5) echo $? and operating system error codes. </br>
+
+# 9/1/23
+1) RECURSION:- When a function calls itself. </br>
+## Write a program to print "Hello World!" 5 times.
+```C
+void printHW(int count)
+{
+if(count==0)
+{
+return 0;
+}
+printf("Hello World!");
+printHW(count-1);
+}
+```
+</br>
+## Write a program to find sum of first n natural no.s
+```C
+# include <stdio.h>
+int sum(int n);
+int s=0;
+int main()
+{
+printf("Sum is: %d", sum(5));
+return 0;
+}
+int sum(int n)
+{
+if(n==1)
+{
+return 1;
+}
+s=n+sum(n-1);
+}
+```
+</br>
+
+Try for factorial of a number. </br>
+
+2) Properties of a function:- 
+- Function can return only one value at a time.</br>
+- Changes to parameters in function don't change the values in calling function because a copy of argument is passed to the function. </br> 
+
+3) Difference between Argument and Parameter:- </br>
+ | Argument | Parameter |
+ |-------|-------|
+ |Values that are passed in function call.|Values in function declaration and definition.|
+ |Used to <ins>send</ins> value|Used to recieve value.|
+ |Actual parameters|Formal parameters|
