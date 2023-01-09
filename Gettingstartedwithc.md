@@ -206,9 +206,4 @@ Try for factorial of a number. </br>
 - Function can return only one value at a time.</br>
 - Changes to parameters in function don't change the values in calling function because a copy of argument is passed to the function. </br> 
 
-3) Difference between Argument and Parameter:- </br>
- | Argument | Parameter |
- |-------|-------|
- |Values that are passed in function call.|Values in function declaration and definition.|
- |Used to <ins>send</ins> value|Used to recieve value.|
- |Actual parameters|Formal parameters|
+3) Difference between Argument and Parameter:- </br> |Argument|Parameter||:-------|:-------|| Values that are passed in function call | Values in function declaration and definition||Used to send< value|Used to recieve value|| Actual parameters | Formal parameters |
