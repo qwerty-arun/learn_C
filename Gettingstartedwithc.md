@@ -206,4 +206,13 @@ Try for factorial of a number. </br>
 - Function can return only one value at a time.</br>
 - Changes to parameters in function don't change the values in calling function because a copy of argument is passed to the function. </br> 
 
-3) Difference between Argument and Parameter:- </br> |Argument|Parameter||:-------|:-------|| Values that are passed in function call | Values in function declaration and definition||Used to send< value|Used to recieve value|| Actual parameters | Formal parameters |
+3) Difference between Argument and Parameter:- </br> |Argument|Parameter|</br>|:-------|:-------|</br>| Values that are passed in function call | Values in function declaration and definition|</br>|Used to send< value|Used to recieve value|</br>| Actual parameters | Formal parameters |
+</br>
+
+# 10/1/23
+1) String constant(String literal)-> Sequence of zero or more characters surround by double quotes. The double quotes only serve to delimit. String constant is an array of characters and has null character '\0' at end, therefore storage required is one more. 
+2) Standard library function `strlen()` returns the length of its character string argument s, excluding the terminal '\0'. 
+3) We must know the difference between 'x' and "x". The former is an interger and the latter is a string constant. 
+4) Enumeration constant:- Enumeration is a list of constant integer values, like:- enum boolean{NO,YES}; NO has the value 0 and YES has the value 1. Suppose not all values are specified, unspecified values continue the progression from the last specified value. For example:- enum ASCII{A=65,B,C,D..........Z}; Here, B is 66, C is 67 and so on.
+5) Name in different enumerations must be distinct. 
+6) Values need not be distinct in the same enumeration. 
