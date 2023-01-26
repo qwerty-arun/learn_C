@@ -219,7 +219,7 @@ Try for factorial of a number. </br>
 </br>
 
 # 26/1/23
-1) Write a program in C to print nth term of the fibonacci series using for loop. Fibonacci series: 0,1,1,2,3,5,8,13......
+1) Write a program in C to print nth term of the fibonacci series using `for loop` . Fibonacci series: 0,1,1,2,3,5,8,13......
 ```C
 # include <stdio.h>
 int main()
