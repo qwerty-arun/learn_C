@@ -216,3 +216,68 @@ Try for factorial of a number. </br>
 4) Enumeration constant:- Enumeration is a list of constant integer values, like:- enum boolean{NO,YES}; NO has the value 0 and YES has the value 1. Suppose not all values are specified, unspecified values continue the progression from the last specified value. For example:- enum ASCII{A=65,B,C,D..........Z}; Here, B is 66, C is 67 and so on.
 5) Name in different enumerations must be distinct. 
 6) Values need not be distinct in the same enumeration. 
+</br>
+
+# 26/1/23
+1) Write a program in C to print nth term of the fibonacci series using for loop. Fibonacci series: 0,1,1,2,3,5,8,13......
+```C
+# include <stdio.h>
+int main()
+{
+int im2=0;
+int im1=1;
+int num,ith;
+printf("Enter the nth term of fibonacci series to be printed: \n");
+scanf("%d",num);
+for(int i=3;i<num;i++)
+{
+ith=im2+im1;
+im2=im1;
+im1=ith;
+}
+printf("nth term of the fibonnaci series is: %d",ith);
+printf("\n");
+}
+```
+</br>
+
+2) Write a program to print Pascal's triangle upto 'n' rows. 
+ ```C
+   # include <stdio.h>
+   int factorial(int n);
+   int f=1;
+   int combinations(int n,int r,int nmr);
+   int main()
+   {
+     int rows;
+     printf("Enter no. of rows of Pascal's triangle that need to be printed:\n");
+     scanf("%d",&rows);
+    printf("Pascal's triangle: \n");
+    for(int n=0;n<rows;n++)
+    {
+      for(int r=0;r<=n;r++)
+      {
+        int nfact=factorial(n);
+        int rfact=factorial(r);
+        int nminusr_fact=factorial(n-r);
+        int c=combinations(nfact,rfact,nminusr_fact);
+        printf("%d \t",c);
+      }
+      printf("\n");
+    }
+    int factorial(int n)
+    {
+    if(n==0)
+    {
+      return 1;
+    }
+    f=n x factorial(n-1);
+   }
+  int combinations(int n,int r,int nmr)
+  {
+    int ncr=n/(r x nmr);
+    return ncr;
+  }
+  }
+  ```
+  
